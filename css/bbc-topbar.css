@@ -1,0 +1,58 @@
+html, body  {
+    margin: 0;
+    padding: 0;
+}
+#bbc-topbar {
+    background-color: #FFF;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+#bbc-newsbar {
+    background-color: #BB1919;
+    position: relative;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+}
+#bbc-newsbar-menu {
+    position: absolute;
+    background-color: #A91717;
+    height: 30px;
+    bottom: 2px;
+}
+#news-image {
+    padding-top: 14px;
+}
+.container {
+    width: 64.5%;
+    margin: 0 auto;
+}
+.img-padding {
+    float: left;
+    padding-top: 8px;
+}
+li {
+    float: left;
+}
+li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-left: 0.5px solid #d8d8d8;
+}
+li a:hover {
+    border-bottom: 3px solid green;
+}
+ul.no-bullet {
+    float: left;
+    list-style-type: none;
+    margin: 0 0 0 10px;
+    padding: 0;
+    overflow: hidden;
+}
